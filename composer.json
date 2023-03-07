@@ -1,0 +1,23 @@
+{
+    "name": "khaled/app",
+    "type": "project",
+    "require": {
+        "phpmailer/phpmailer": "^6.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "Khaled\\App\\": "src/"
+        },
+        "files":[
+            "src/Core/helper.php", 
+            "src/Core/request.php"
+        ]
+
+    },
+    "authors": [
+        {
+            "name": "khaledfathi",
+            "email": "khaledfathi@protonmail.com"
+        }
+    ]
+}
